@@ -228,7 +228,7 @@ POST /api/complaints
   "latitude": 16.506174,
   "longitude": 80.648048,
   "attachmentUrls": [
-    "https://res.cloudinary.com/.../land文档1.jpg",
+    "https://res.cloudinary.com/.../land_doc1.jpg",
     "https://res.cloudinary.com/.../survey2.jpg"
   ]
 }
@@ -243,28 +243,6 @@ SUBMITTED → UNDER_REVIEW → VERIFIED → ASSIGNED → IN_PROGRESS → RESOLVE
 RESOLVED → CLOSED
 RESOLVED → REOPENED (if issue persists)
 ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-
-### Frontend Setup
-```bash
-# Clone the repository
-git clone https://github.com/krishnamohan-vadlapatla/justicelinker.git
-cd justicelinker/frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-The frontend will be available at `http://localhost:5173`
 
 ---
 
@@ -310,10 +288,10 @@ Super Admin Reviews & Assigns
 ┌─────────────────────────────┐
 │   Authority Assignment:     │
 ├─────────────────────────────┤
-│ 👮 Police Department        │ ← Law enforcement issues
-│ ⚖️ Judicial Department      │ ← Legal/court matters  
-│ 🏛️ General Administration  │ ← Civic/municipal issues
-│ 💼 Department Admin         │ ← Specific department issues
+│ Police Department           │ ← Law enforcement issues
+│ Judicial Department         │ ← Legal/court matters  
+│ General Administration     │ ← Civic/municipal issues
+│ Department Admin           │ ← Specific department issues
 └─────────────────────────────┘
        ↓
 Department Admin Manages
@@ -328,53 +306,19 @@ Resolution + Closure
 - Department Admins can ONLY manage their assigned complaints
 
 ### Short-term (Q2 2026)
-- 📱 **Mobile App**: React Native or PWA for offline-first experience
-- 📊 **Analytics Dashboard**: Heatmaps, trend analysis by region/type
-- 🔔 **Push Notifications**: In-app and browser notifications
+- 📱 Mobile App: React Native or PWA for offline-first experience
+- 📊 Analytics Dashboard: Heatmaps, trend analysis by region/type
+- 🔔 Push Notifications: In-app and browser notifications
 
 ### Medium-term (Q3-Q4 2026)
-- 🤖 **AI Triage**: ML-based categorization and severity assessment
-- 📄 **Document Upload**: PDF/document evidence support
-- 💬 **WhatsApp Integration**: Submit complaints via WhatsApp
+- 🤖 AI Triage: ML-based categorization and severity assessment
+- 📄 Document Upload: PDF/document evidence support
+- 💬 WhatsApp Integration: Submit complaints via WhatsApp
 
 ### Long-term (2027+)
-- 🗣️ **Voice Input**: Audio complaint submission in local languages
-- 🔗 **Blockchain Audit**: Immutable complaint history
-- 🏛️ **Govt API**: Authorized API access for government systems
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from developers, designers, and domain experts who share our vision of empowering citizens to report injustice.
-
-### How to Contribute
-
-1. **Fork** the repository
-2. **Clone** your forked repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/justicelinker.git
-   ```
-3. **Create** a feature branch:
-   ```bash
-   git checkout -b feature/YourAmazingFeature
-   ```
-4. **Make** your changes and commit:
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-5. **Push** to your branch:
-   ```bash
-   git push origin feature/YourAmazingFeature
-   ```
-6. **Open** a Pull Request
-
-### Areas We Need Help
-- 🎨 **UI/UX**: Improve accessibility, mobile responsiveness
-- 🌐 **Translations**: Add more regional languages
-- 📱 **Mobile**: React Native development
-- 🔒 **Security**: Security audits, penetration testing
-- 📊 **Analytics**: Data visualization expertise
+- 🗣️ Voice Input: Audio complaint submission in local languages
+- 🔗 Blockchain Audit: Immutable complaint history
+- 🏛️ Govt API: Authorized API access for government systems
 
 ---
 
@@ -383,17 +327,15 @@ We welcome contributions from developers, designers, and domain experts who shar
 **Project Maintainer**: [Krishna Mohan Vadlapatla](https://github.com/krishnamohan-vadlapatla)
 
 - 🌐 **Live Demo**: [https://justicelinker.vercel.app/](https://justicelinker.vercel.app/)
-- 💻 **GitHub**: [https://github.com/krishnamohan-vadlapatla/justicelinker](https://github.com/krishnamohan-vadlapatla/justicelinker)
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License**.
 
 ---
 
 <div align="center">
-  <p>⭐ Star us on GitHub if you find this project useful!</p>
   <p>Made with ❤️ for a more just society</p>
 </div>
